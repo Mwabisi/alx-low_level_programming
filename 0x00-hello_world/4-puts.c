@@ -1,5 +1,4 @@
-#!/bin/bas
-#include<stdio.h>
+#incluide<stdio.h>
 /**
  * main-Entry point
  *
@@ -8,4 +7,7 @@
 int main(void)
 {
 	puts("/Programming is like building a multiligual puzzle");
+
 	return(0)
+}
+	

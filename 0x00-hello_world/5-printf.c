@@ -1,5 +1,4 @@
-#!/bin/bash
-#include<stdio>
+#include<stdio.h>
 /**
  * main- Entry point
  *
@@ -7,5 +6,6 @@
  */
 int main(void)
 {
-	printf("with proper grammer, but the outcome of art,");
+	printf("with proper grammer, but the outcome of art,\n");
 	return(0);
+}
