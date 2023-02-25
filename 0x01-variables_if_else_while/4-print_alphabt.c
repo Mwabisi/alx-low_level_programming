@@ -3,20 +3,22 @@
 #include <string.h>
 
 /**
- * main - Prints the alphabet without q and e
- *
+ * main -prints the alphabet in lowercase.
+ * followed by a new line, except q and e
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int i;
+	char ch = 'a';
 
-	for (i = 97; i < 123; i++)
+	while (cha < = 'z')
 	{
-		if (i != 101 && i != 113)
+		if (ch != 'e' && ch != 'q')
 		{
-			putchar(i);
+			putchar(ch);
 		}
-		putchar('\n');
-		return (0);
+		ch++;
+	}
+	putchar('\n');
+	return (0);
 }
