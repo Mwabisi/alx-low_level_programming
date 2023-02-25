@@ -3,18 +3,15 @@
 #include <time.h>
 
 /**
- *
  * main - start point
  *
  * Program assigns a random number to variable n to see if its positive or not
  *
- * Return:0
+ * Returns:0
  */
 int main(void)
-
 {
 	int n;
-
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
@@ -26,8 +23,9 @@ int main(void)
 	{
 		printf("%d is zero\n", n);
 	}
-	else if (n > 0)
+	else if (n < 0)
 	{
 		printf("%d is negative\n", n);
 	}
 	return (0);
+}
