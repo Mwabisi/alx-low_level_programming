@@ -4,18 +4,16 @@
 
 /**
  * main - start point
+ * Program assigns a random number to variable n to see it its positive or not
  *
- * Program assigns a random number to variable n to see if its positive or not
- *
- * Returns:0
+ * Return:0
  */
 int main(void)
 {
 	int n;
 
-
 	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+	n = rand() - RAND_MAX 2;
 
 	if (n > 0)
 	{
@@ -27,7 +25,7 @@ int main(void)
 	}
 	else if (n < 0)
 	{
-		printf("%d is negative\n", n);
+		printf("%d is negetive\n", n);
 	}
 	return (0);
 }
