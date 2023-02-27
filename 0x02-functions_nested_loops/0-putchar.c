@@ -1,9 +1,9 @@
-#include "main.h"
-
+#include"main.h"
 /**
-* main - Entry point
-* Return: Always 0
-*/
+ * main - starting point
+ * prints _putchar, followed by new line
+ * Return: 0
+ */
 
 int main(void)
 {
