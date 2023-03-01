@@ -1,8 +1,8 @@
-#include"main.h'
+#include "main.h'
 /**
- * jack_bauer - Prints every minute of the day of Jack bauer
- * Return: ...
- */
+* jack_bauer - Prints every minute of the day of Jack bauer
+* Return: ...
+*/
 void jack_bauer(void)
 {
 	int a, b, c, d;
@@ -22,11 +22,11 @@ void jack_bauer(void)
 						_putchar(58);
 						_putchar(c + '0');
 						_putchar(d +'0');
-						_putchar('\n);
+						_putchar('\n');
 					}
 				}
-				
 			}
 		}
 	}
 }
+
