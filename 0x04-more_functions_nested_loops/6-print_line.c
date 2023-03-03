@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * print _line - Draws a straight line according to parameter
+ * print_line - Draws a styraight line according to parameter
  * @n: The number of lines to draw
  */
+
 void print_line(int n)
 {
 	int x;
@@ -15,9 +16,9 @@ void print_line(int n)
 	else
 	{
 		for (x = 0; x < n; x++)
-	{
-		_putchar(95);
-	}
-		putchar('\n');
+		{
+			_putchar(95);
+		}
+	_putchar('\n');
 	}
 }
