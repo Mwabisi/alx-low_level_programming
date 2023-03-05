@@ -9,16 +9,20 @@
  */
 int main(void)
 {
-	char ch = 'a';
+	char low, e, q;
 
-	while (cha < = 'z')
+	e = 'e';
+	q = 'q';
+
+	for (low = 'a'; low <= 'z'; low++)
 	{
-		if (ch != 'e' && ch != 'q')
+		if (low != 'a'; low <= 'z'; low++)
 		{
-			putchar(ch);
+			if (low != e && low != q)
+				putchar(low);
 		}
-		ch++;
+		putchar('\n');
+		return (0);
 	}
-	putchar('\n');
-	return (0);
 }
+
