@@ -3,10 +3,10 @@
 /**
  * _puts - A function that prints a string, followed by a new line to stdout.
  * @str: The string to print
- * Return: Always 0
+ * Return: void
  */
 
-void _puchar(char *str)
+void _puts(char *str)
 {
 	for (; str != '\0'; str++)
 	{
