@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
+#include <time.h>
 
 /**
- * main -prints the alphabet in lowercase.
- * followed by a new line, except q and e
+ * main - Entry point
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -16,13 +15,10 @@ int main(void)
 
 	for (low = 'a'; low <= 'z'; low++)
 	{
-		if (low != 'a'; low <= 'z'; low++)
-		{
-			if (low != e && low != q)
-				putchar(low);
-		}
-		putchar('\n');
-		return (0);
+		if (low != e && low != q)
+			putchar(low);
 	}
+	putchar('\n');
+	return (0);
 }
 
