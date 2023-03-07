@@ -7,29 +7,26 @@
  */
 void print_number(int n)
 {
-unsigned int m, d, count;
+	int a, b;
 
-if (n < 0)
-{
-_putchar(45);
-m = n * -1;
-}
-else
-{
-m = n;
-}
+	if (n != 0)
+	{
+		if (n < 0)
+		{
+			_putchar('-');
+			n = -n;
+		}
+		a = n / 10;
+		b = n % 10;
+		if (a != 0)
+		{
+			print_number(a);
+			_putchar(b + '0');
+		}
+		else
+			_putchar(b + '0');
 
-d = m;
-count = 1;
-
-while (d > 9)
-{
-d /= 10;
-count *= 10;
-}
-
-for (; count >= 1; count /= 10)
-{
-_putchar(((m / count) % 10) + 48);
-}
+	}
+	else
+		_putchar('0');
 }
