@@ -1,15 +1,18 @@
 #include <stdio.h>
-
+#include <string.h>
 
 /**
- * main - prints "Programming is like building a multilingual
- * puzzle, followed by a newline.
- * Return: Always 0.
+ * main - entry point
+ * @str The character type variable str is declared
+ *
+ * The string value is assigned to it
+ * puts function is used to print out the string in str
+ * Return: (0) Success
  */
-
 int main(void)
 {
+	char str[] = "\"Programming is like building a multilingual puzzle";
 
-	puts("\"Programming is like building a multiligual puzzle");
+	puts(str);
 	return (0);
 }
