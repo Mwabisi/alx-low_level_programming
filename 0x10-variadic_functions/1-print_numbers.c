@@ -8,7 +8,7 @@
  * @n: the number of integers passed to the function
  * @....: a variable number of numbers to be printed
  */
-void print_numbers(conts char *separator, const unsigned int n, ...)
+void print_numbers(const char *separator, const unsigned int n, ...)
 {
 
 	var_list nums;
